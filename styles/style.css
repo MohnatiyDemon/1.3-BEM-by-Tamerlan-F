@@ -42,34 +42,34 @@
 }
 
 .icon__burger {
-  background-image: url('/images/icons/burger.svg');
+  background-image: url('../images/icons/burger.svg');
   background-repeat: no-repeat;
 }
 
 .icon__group {
-  background-image: url('/images/icons/group.svg');
+  background-image: url('../images/icons/group.svg');
   background-repeat: no-repeat;
   width: 96.55px;
   height: 50.81px;
 }
 
 .icon__call {
-  background-image: url('/images/icons/call.svg');
+  background-image: url('../images/icons/call.svg');
   background-repeat: no-repeat;
 }
 
 .icon__chat {
-  background-image: url('/images/icons/chat.svg');
+  background-image: url('../images/icons/chat.svg');
   background-repeat: no-repeat;
 }
 
 .icon__profile {
-  background-image: url('/images/icons/profile.svg');
+  background-image: url('../images/icons/profile.svg');
   background-repeat: no-repeat;
 }
 
 .icon__repair {
-  background-image: url('/images/icons/repair.svg');
+  background-image: url('../images/icons/repair.svg');
   background-repeat: no-repeat;
 }
 .header__item.icon__repair {
@@ -88,7 +88,7 @@
 }
 
 .icon__checkstatus {
-  background-image: url('/images/icons/checkstatus.svg');
+  background-image: url('../images/icons/checkstatus.svg');
   background-repeat: no-repeat;
 }
 
@@ -114,7 +114,7 @@
 }
 
 .title__text::before {
-  content: url('/images/icons/highlight.svg');
+  content: url('../images/icons/highlight.svg');
   position: absolute;
   left: 0;
 }
@@ -139,7 +139,7 @@
 }
 
 .main__read-more_btn {
-  background-image: url('/images/icons/expand.svg');
+  background-image: url('../images/icons/expand.svg');
   background-repeat: no-repeat;
   width: 24px;
   height: 24px;
