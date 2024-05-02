@@ -5,13 +5,15 @@
   font-size: 14px;
 }
 
-body {
-  min-width: 320px;
-}
 
 .main {
   background-color: #f8f8f8;
   border-top: 1px solid #d9fff5;
+  min-width: 320px;
+}
+
+.header {
+  min-width: 320px;
 }
 
 .header__nav {
@@ -45,43 +47,42 @@ body {
   margin-left: auto;
 }
 
-.icon__burger {
+.header_item__burger {
   background-image: url('../images/icons/burger.svg');
   background-repeat: no-repeat;
 }
 
-.icon__group {
-  background-image: url('../images/icons/group.svg');
-  background-repeat: no-repeat;
-  width: 96.55px;
+.header_item__group {
+ width: 96.55px;
   height: 50.81px;
 }
 
-.icon__call {
+.header_item__call {
   background-image: url('../images/icons/call.svg');
   background-repeat: no-repeat;
 }
 
-.icon__chat {
+.header_item__chat {
   background-image: url('../images/icons/chat.svg');
   background-repeat: no-repeat;
 }
 
-.icon__profile {
+.header_item__profile {
   background-image: url('../images/icons/profile.svg');
   background-repeat: no-repeat;
 }
 
-.icon__repair {
+.header_item__repair, .title_item__repair {
   background-image: url('../images/icons/repair.svg');
   background-repeat: no-repeat;
 }
-.header__item.icon__repair {
+
+.header_item__repair {
   position: relative;
   margin-left: 20px;
 }
 
-.header__item.icon__repair:before {
+.header_item__repair:before {
   content: '';
   display: inline-block;
   position: absolute;
@@ -91,7 +92,7 @@ body {
   background-color: #eaeaea;
 }
 
-.icon__checkstatus {
+.header_item__checkstatus, .title_item__checkstatus {
   background-image: url('../images/icons/checkstatus.svg');
   background-repeat: no-repeat;
 }
@@ -200,9 +201,9 @@ body {
   display: none;
 }
 
-.icon__call,
-.icon__chat,
-.icon__profile {
+.header_item__call,
+.header_item__chat,
+.header_item__profile {
   display: none;
 }
 .main__second-p {
@@ -213,23 +214,27 @@ body {
 }
 
 @media screen and (width >= 768px) and (width < 1120px) {
-  .icon__call,
-  .icon__chat,
-  .icon__profile {
+  .header_item__call,
+  .header_item__chat,
+  .header_item__profile {
     display: block;
   }
+  .header_item__burger {
+    position: relative;
+    margin-right: 30px;
+  }
 
-  .icon__burger::after {
+  .header_item__burger::after {
     content: '';
     display: inline-block;
     position: absolute;
-    left: 74px;
+    left: 64px;
     width: 2px;
     height: 32px;
     background-color: #eaeaea;
   }
 
-  .icon__group {
+  .item__group {
     margin-left: 20px;
   }
 
@@ -249,7 +254,11 @@ body {
 }
 
 @media screen and (min-width: 1120px) {
-  body {
+  * {
+    background-color: #f8f8f8;
+  }
+
+  .main {
     max-width: 1120px;
     margin: 0 auto;
     background-color: #f8f8f8;
