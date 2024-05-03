@@ -107,12 +107,7 @@
 }
 
 .main__nav {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	gap: 16px;
 	margin-left: auto;
-	list-style-type: none;
 }
 
 .title__menu {
@@ -120,7 +115,6 @@
 	flex-direction: row;
 	align-items: center;
 	gap: 16px;
-	margin-left: auto;
 	list-style-type: none;
 }
 
