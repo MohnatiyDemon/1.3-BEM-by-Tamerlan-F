@@ -20,25 +20,25 @@
 	padding: 18.59px 16px 18.59px 16px;
 }
 
-.header__item,
+.header-nav__item,
 .title__item {
 	width: 40px;
 	height: 40px;
 	cursor: pointer;
 }
 
-.header__menu {
+.header-nav__menu {
 	list-style-type: none;
 }
 
-.header__menu_main {
+.header-nav__menu_main {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	gap: 16px;
 }
 
-.header__menu_more {
+.header-nav__menu_more {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -46,43 +46,43 @@
 	margin-left: auto;
 }
 
-.header__item--burger {
+.header-nav__item--burger {
 	background-image: url('../images/icons/burger.svg');
 	background-repeat: no-repeat;
 }
 
-.header__item--group {
+.header-nav__item--group {
 	width: 96.55px;
 	height: 50.81px;
 }
 
-.header__item--call {
+.header-nav__item--call {
 	background-image: url('../images/icons/call.svg');
 	background-repeat: no-repeat;
 }
 
-.header__item--chat {
+.header-nav__item--chat {
 	background-image: url('../images/icons/chat.svg');
 	background-repeat: no-repeat;
 }
 
-.header__item--profile {
+.header-nav__item--profile {
 	background-image: url('../images/icons/profile.svg');
 	background-repeat: no-repeat;
 }
 
-.header__item--repair,
+.header-nav__item--repair,
 .title__item--repair {
 	background-image: url('../images/icons/repair.svg');
 	background-repeat: no-repeat;
 }
 
-.header__item--repair {
+.header-nav__item--repair {
 	position: relative;
 	margin-left: 20px;
 }
 
-.header__item--repair:before {
+.header-nav__item--repair:before {
 	content: '';
 	display: inline-block;
 	position: absolute;
@@ -92,7 +92,7 @@
 	background-color: #eaeaea;
 }
 
-.header__item--checkstatus,
+.header-nav__item--checkstatus,
 .title__item--checkstatus {
 	background-image: url('../images/icons/checkstatus.svg');
 	background-repeat: no-repeat;
@@ -205,9 +205,9 @@
 	display: none;
 }
 
-.header__item--call,
-.header__item--chat,
-.header__item--profile {
+.header-nav__item--call,
+.header-nav__item--chat,
+.header-nav__item--profile {
 	display: none;
 }
 .text__second-p {
@@ -218,17 +218,17 @@
 }
 
 @media screen and (width >= 768px) and (width < 1120px) {
-	.header__item--call,
-	.header__item--chat,
-	.header__item--profile {
+	.header-nav__item--call,
+	.header-nav__item--chat,
+	.header-nav__item--profile {
 		display: block;
 	}
-	.header__item--burger {
+	.header-nav__item--burger {
 		position: relative;
 		margin-right: 30px;
 	}
 
-	.header__item--burger::after {
+	.header-nav__item--burger::after {
 		content: '';
 		display: inline-block;
 		position: absolute;
