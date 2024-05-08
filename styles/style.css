@@ -165,7 +165,7 @@
 	white-space: nowrap;
 }
 
-.main-buttons__item_active {
+.main-buttons__item--active {
 	border: 1px solid #b8ffec;
 	border-radius: 6px;
 	background-color: #fff;
