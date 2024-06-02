@@ -16,6 +16,7 @@ const descriptionReadMoreButton = document.querySelector(
 const descriptionText = document.querySelector('.description-text')
 const descriptionSecondP = document.querySelector('.description__second-p')
 const descriptionThirdP = document.querySelector('.description__third-p')
+const descriptionFourthP = document.querySelector('.description__fourth-p')
 
 descriptionReadMoreButton.addEventListener('click', () => {
 	descriptionReadMoreButton.classList.toggle(
@@ -23,6 +24,7 @@ descriptionReadMoreButton.addEventListener('click', () => {
 	)
 	descriptionSecondP.classList.toggle('show')
 	descriptionThirdP.classList.toggle('show')
+	descriptionFourthP.classList.toggle('show')
 
 	descriptionReadMoreButton.classList.contains(
 		'description-read-more__button--active'
