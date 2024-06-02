@@ -25,20 +25,22 @@
 	border: none;
 	background-color: inherit;
 }
+.header-nav__button:hover {
+	filter: hue-rotate(235deg);
+	transform: scale(1.1);
+}
 .header-nav__image {
+	width: 97px;
+	height: 51px;
 	border: none;
 	background-color: inherit;
 	margin-right: -30px; /*найти откуда*/
 	transform: translate(0, -7px);
-	transition: filter 50ms ease;
+	transition: transform 100ms ease;
 }
 
 .header-nav__image:hover {
 	filter: opacity(0.9);
-}
-.header-nav__button:hover {
-	filter: hue-rotate(235deg);
-	transform: scale(1.1);
 }
 
 .header-nav__menu {
